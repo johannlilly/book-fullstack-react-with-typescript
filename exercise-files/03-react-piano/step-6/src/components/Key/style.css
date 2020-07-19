@@ -1,0 +1,103 @@
+.key {
+  position: relative;
+  font-size: var(--font-size);
+  border-radius: 0 0 var(--radius) var(--radius);
+  text-transform: uppercase;
+  user-select: none;
+}
+
+.key--natural {
+  width: var(--white-key-width);
+  height: var(--white-key-height);
+  padding-top: var(--white-key-padding);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.4);
+  margin-right: -1px;
+  z-index: 1;
+}
+
+.key--sharp,
+.key--flat {
+  width: var(--black-key-width);
+  height: var(--black-key-height);
+  padding-top: var(--black-key-padding);
+  background-color: #111;
+  color: white;
+  margin: 0 calc(-0.5 * calc(var(--black-key-width)));
+  z-index: 2;
+}
+
+.key--natural:active,
+.key--natural.is-pressed {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.key--sharp:active,
+.key--sharp.is-pressed,
+.key--flat:active,
+.key--flat.is-pressed {
+  background-color: #555;
+}
+
+.key:disabled {
+  background-color: none;
+  cursor: wait;
+}
+
+.key--natural:disabled {
+  color: rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.key--sharp:disabled,
+.key--flat:disabled {
+  color: rgba(255, 255, 255, 0.4);
+  background-color: #111;
+}
+
+.key {
+  --radius: 2px;
+  --font-size: 0.6rem;
+  --white-key-width: 20px;
+  --white-key-height: calc(var(--white-key-width) * 4.57);
+  --white-key-padding: calc(var(--white-key-height) / 1.28);
+  --black-key-width: calc(var(--white-key-width) / 1.6);
+  --black-key-height: calc(var(--white-key-height) / 1.77);
+  --black-key-padding: calc(var(--black-key-height) / 1.5);
+}
+
+@media (min-width: 380px) {
+  .key {
+    --white-key-width: 25px;
+    --radius: 5px;
+    --font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 540px) {
+  .key {
+    --white-key-width: 35px;
+    --font-size: 1rem;
+  }
+}
+
+@media (min-width: 720px) {
+  .key {
+    --white-key-width: 45px;
+    --font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 960px) {
+  .key {
+    --white-key-width: 65px;
+    --font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1120px) {
+  .key {
+    --white-key-width: 75px;
+    --font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,20 @@
+import React from "react"
+import { OrderSummary } from "./OrderSummary"
+
+describe("OrderSummary", () => {
+  afterEach(jest.clearAllMocks)
+
+  describe("while order data being loaded", () => {
+    it("renders loader")
+  })
+
+  describe("when order is loaded", () => {
+    it("renders order info")
+
+    it("navigates to main page on button click")
+  })
+
+  describe("without order", () => {
+    it("renders error message")
+  })
+})

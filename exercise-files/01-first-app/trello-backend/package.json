@@ -1,0 +1,19 @@
+{
+  "name": "trello-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

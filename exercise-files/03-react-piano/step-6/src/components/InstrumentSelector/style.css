@@ -1,0 +1,15 @@
+.instruments {
+  display: block;
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  line-height: 1.5;
+
+  margin: 1.5rem auto 0;
+  padding: 0.4rem 1rem;
+
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}

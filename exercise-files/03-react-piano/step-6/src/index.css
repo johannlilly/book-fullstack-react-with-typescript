@@ -1,0 +1,43 @@
+:root {
+  --footer-height: 60px;
+  --logo-height: 8rem;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  border-radius: 0;
+
+  margin: 0;
+  padding: 0;
+  width: auto;
+  background: none;
+  appearance: none;
+
+  color: inherit;
+  font: inherit;
+  line-height: normal;
+  cursor: pointer;
+
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+}

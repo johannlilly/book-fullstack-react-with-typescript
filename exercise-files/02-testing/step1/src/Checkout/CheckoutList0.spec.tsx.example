@@ -1,0 +1,8 @@
+import React from "react"
+import { CheckoutList } from "./CheckoutList"
+import { Product } from "../shared/types"
+import { render } from "@testing-library/react"
+
+describe("CheckoutList", () => {
+  it.todo("renders list of products")
+})

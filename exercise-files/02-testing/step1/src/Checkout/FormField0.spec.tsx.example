@@ -1,0 +1,15 @@
+import React from "react"
+import { render, fireEvent } from "@testing-library/react"
+import { FormField } from "./FormField"
+
+describe("FormField", () => {
+  it.todo("renders correctly")
+
+  describe("with error", () => {
+    it.todo("renders error message")
+  })
+
+  describe("on change", () => {
+    it.todo("normalizes the input")
+  })
+})

@@ -1,0 +1,8 @@
+.logo {
+  font-size: 5rem;
+  text-align: center;
+  line-height: var(--logo-height);
+  height: var(--logo-height);
+  margin: 0;
+  padding-top: 30px;
+}

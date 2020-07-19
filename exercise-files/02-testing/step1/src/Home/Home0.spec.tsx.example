@@ -1,0 +1,18 @@
+import React from "react"
+import { Home } from "./Home"
+import { Category } from "../shared/types"
+import { render } from "@testing-library/react"
+
+describe("Home", () => {
+  describe("while loading", () => {
+    it.todo("renders categories with products")
+  })
+
+  describe("with data", () => {
+    it.todo("renders categories with products")
+  })
+
+  describe("with error", () => {
+    it.todo("renders categories with products")
+  })
+})

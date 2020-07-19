@@ -1,0 +1,30 @@
+import React, { useRef } from "react"
+import { ColumnContainer, ColumnTitle } from "./styles"
+import { useAppState } from "./AppStateContext"
+import { Card } from "./Card"
+import { AddNewItem } from "./AddNewItem"
+import { useItemDrag } from "./useItemDrag"
+import { useDrop } from "react-dnd"
+import { DragItem } from "./DragItem"
+import { isHidden } from "./utils/isHidden"
+
+interface ColumnProps {
+  text: string
+  index: number
+  id: string
+  isPreview?: boolean
+}
+
+export const Column = ({ text, index, id, isPreview }: ColumnProps) => {
+  // ... the rest of the code
+
+  return (
+    <ColumnContainer
+      isPreview={isPreview}
+      ref={ref}
+      isHidden={isHidden(isPreview, state.draggedItem, "COLUMN", id)}
+    >
+      // ... Column layout
+    </ColumnContainer>
+  )
+}

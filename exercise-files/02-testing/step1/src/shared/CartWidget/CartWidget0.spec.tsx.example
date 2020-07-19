@@ -1,0 +1,9 @@
+import React from "react"
+import { CartWidget } from "./CartWidget"
+import { fireEvent } from "@testing-library/react"
+
+describe("CartWidget", () => {
+  it.todo("shows the amount of products in the cart")
+
+  it.todo("navigates to cart summary page on click")
+})

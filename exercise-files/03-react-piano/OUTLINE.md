@@ -1,0 +1,50 @@
+# III — Patterns in React + TypeScript Applications
+
+A rough outline for this chapter.
+
+- Introduction
+- What we’re going to build
+- First steps and basic application layout
+- A bit of a music theory
+  - Coding music rules
+  - Interface of a `Note`
+  - Application constraints
+  - Notes generation
+- Third party API and browser API
+  - Web Audio API
+  - Soundfont
+- Patterns and what are they for
+  - Adapter or Provider pattern
+  - React-specific
+- Creating a `Keyboard`
+  - Main app screen
+  - Custom hook `useAudioContext()`
+  - Going deeper
+- Playing a sound
+  - First Soundfont adapter
+  - Loading sounds set and playing
+  - Connecting to a `Keyboard`
+- Mapping real keys to virtual ones
+- Instruments list
+  - Context
+  - Selector
+  - Dynamically loading instruments
+- Render-Props
+  - Using a functional component
+  - Using a class
+  - Tips and tricks
+  - Caveats
+  - Pros and cons
+- Higher Order Components
+  - Higher Order Functions
+    - First step
+    - Second step
+    - Third step
+  - Higher Order →
+  - Usage with `Keyboard`
+  - Caveats
+  - ...But what about `ref`?
+  - Static composition
+  - From hooks to HOCs
+  - Pros and cons
+- Conclusion

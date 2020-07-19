@@ -1,0 +1,61 @@
+import React from "react"
+import { render } from "@testing-library/react"
+import { CartProvider, CartContext } from "./CartContext"
+import { Product } from "../shared/types"
+
+describe("CartProvider", () => {
+  describe("when 'addToCart' is called", () => {
+    it("adds product to products array", () => {
+      let products: Product[] = []
+      let addToCart: (newProduct: Product) => void = () =>
+        null
+
+      render(
+        <CartProvider>
+          <CartContext.Consumer>
+            {(value) => {
+              products = value.products
+              addToCart = value.addToCart
+              return null
+            }}
+          </CartContext.Consumer>
+        </CartProvider>
+      )
+
+      addToCart({
+        name: "Product foo",
+        price: 0,
+        image: "image.jpg"
+      })
+
+      expect(products).toEqual([
+        {
+          name: "Product foo",
+          price: 0,
+          image: "image.jpg"
+        }
+      ])
+    })
+    it.todo("saves products in local storage")
+  })
+
+  describe("with products", () => {
+    describe("when 'clearCart' is called", () => {
+      it.todo("returns empty array for products")
+      it.todo("removes products from local storage")
+    })
+
+    describe("when 'removeFromCart' is called", () => {
+      it.todo("removes product from products array")
+      it.todo("removes product from local storage")
+    })
+  })
+
+  describe("with products in localStorage", () => {
+    it.todo("loads products from localStorage")
+  })
+
+  describe("with empty localStorage", () => {
+    it.todo("products is empty array")
+  })
+})

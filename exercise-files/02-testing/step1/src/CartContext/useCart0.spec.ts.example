@@ -1,0 +1,21 @@
+describe("useCart", () => {
+  describe("on mount", () => {
+    it.todo("it loads data from localStorage")
+  })
+
+  describe("#addToCart", () => {
+    it.todo("adds item to the cart")
+  })
+
+  describe("#removeFromCart", () => {
+    it.todo("removes item from the cart")
+  })
+
+  describe("#totalPrice", () => {
+    it.todo("returns total products price")
+  })
+
+  describe("#clearCart", () => {
+    it.todo("removes all the products from the cart")
+  })
+})

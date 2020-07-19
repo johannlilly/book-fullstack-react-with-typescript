@@ -1,0 +1,48 @@
+# Outline
+
+- Introduction
+- What we’re going to build
+- Pre-rendering
+  - Server Side Rendering
+  - Static Site Generation
+- Next
+- Setting up a project
+  - TypeScript
+- First page
+- Basic application layout
+  - `Header` component
+  - Next's `Link`
+- `Center` component
+- `Footer` component
+- Custom `_app`
+- Application theme
+- Custom `_document`
+- Site front page
+  - Feed
+  - Section
+  - Post card
+- Page 404
+- Post page template
+- “Backend API” server
+  - Server setup
+  - Post data and interface
+  - API endpoints
+- Frontend API client
+- Updating main page
+  - Static props
+  - Updating `Feed`
+  - Updating `Section`
+  - Updating `Post` card
+- Pre-render post page
+  - API
+  - Post page static props and static paths
+  - Static paths
+  - `Loader` component
+  - `PostBody` component
+- Category page
+  - API
+  - `Category` page component
+  - Updating `Section`
+- Adding `Breadcrumbs`
+- Building a project
+- Conclusion

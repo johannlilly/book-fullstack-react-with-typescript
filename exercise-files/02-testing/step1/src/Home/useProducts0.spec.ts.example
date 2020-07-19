@@ -1,0 +1,18 @@
+import { renderHook } from "@testing-library/react-hooks"
+import { useProducts } from "./useProducts"
+
+describe("useProducts", () => {
+  it.todo("fetches products on mount")
+
+  describe("while waiting API response", () => {
+    it.todo("returns correct loading state data")
+  })
+
+  describe("with error response", () => {
+    it.todo("returns error state data")
+  })
+
+  describe("with successful response", () => {
+    it.todo("returns successful state data")
+  })
+})

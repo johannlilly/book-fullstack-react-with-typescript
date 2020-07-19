@@ -1,0 +1,100 @@
+  {"categories": [
+    {
+      "name": "Weapons",
+      "items": [
+        {
+          "name": "Rusty Sword",
+          "description": "Simple sword description.",
+          "image": "/images/rusty_sword.png",
+          "price": "5"
+        },
+        {
+          "name": "Broad Sword",
+          "description": "Simple sword description.",
+          "image": "/images/broad_sword.png",
+          "price": "25"
+        },
+        {
+          "name": "Katana",
+          "description": "Simple sword description.",
+          "image": "/images/katana.png",
+          "price": "50"
+        },
+        {
+          "name": "Scimitar",
+          "description": "Simple sword description.",
+          "image": "/images/scimitar.png",
+          "price": "60"
+        },
+        {
+          "name": "Sabre",
+          "description": "Simple sword description.",
+          "image": "/images/sabre.png",
+          "price": "70"
+        },
+        {
+          "name": "Divine Sword",
+          "description": "Simple sword description.",
+          "image": "/images/divine_sword.png",
+          "price": "250"
+        },
+        {
+          "name": "Basic Spear",
+          "description": "Simple sword description.",
+          "image": "/images/basic_spear.png",
+          "price": "5"
+        },
+        {
+          "name": "Elven Wand",
+          "description": "Simple sword description.",
+          "image": "/images/elven_wand.png",
+          "price": "100"
+        }
+      ]
+    },
+    {
+      "name": "Armor",
+      "items": [
+        {
+          "name": "Rusty Helmet",
+          "description": "Simple sword description.",
+          "image": "/images/rusty_helmet.png",
+          "price": "7"
+        },
+        {
+          "name": "Plate Armor",
+          "description": "Simple sword description.",
+          "image": "/images/plate_armor.png",
+          "price": "75"
+        },
+        {
+          "name": "Golden Armor",
+          "description": "Simple sword description.",
+          "image": "/images/golden_armor.png",
+          "price": "200"
+        }
+      ]
+    },
+    {
+      "name": "Potions",
+      "items": [
+        {
+          "name": "Ruby Potion",
+          "description": "Simple sword description.",
+          "image": "/images/ruby_potion.png",
+          "price": 10
+        }
+      ]
+    },
+    {
+      "name": "Misc",
+      "items": [
+        {
+          "name": "Raspberry Pie",
+          "description": "Simple sword description.",
+          "image": "/images/raspberry_pie.png",
+          "price": 1 
+        }
+      ]
+    }
+  ]}

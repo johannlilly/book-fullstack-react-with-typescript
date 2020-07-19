@@ -1,0 +1,18 @@
+import React from "react"
+import { render, fireEvent } from "@testing-library/react"
+import { CheckoutForm } from "./CheckoutForm"
+import { act } from "react-dom/test-utils"
+
+describe("CheckoutForm", () => {
+  it.todo("renders correctly")
+
+  describe("with invalid inputs", () => {
+    it.todo("shows errors")
+  })
+
+  describe("with valid inputs", () => {
+    describe("on place order button click", () => {
+      it("calls submit function with form data")
+    })
+  })
+})

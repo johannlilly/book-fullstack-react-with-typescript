@@ -1,0 +1,22 @@
+import React, { createContext } from "react"
+
+interface Task {
+  id: string
+  text: string
+}
+
+interface List {
+  id: string
+  text: string
+  tasks: Task[]
+}
+
+export interface AppState {
+  lists: List[]
+}
+
+interface AppStateContextProps {
+  state: AppState
+}
+
+const AppStateContext = createContext<AppStateContextProps>({} as AppStateContextProps)
