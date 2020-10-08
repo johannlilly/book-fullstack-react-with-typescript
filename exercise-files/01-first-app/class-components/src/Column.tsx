@@ -2,7 +2,7 @@ import React from "react"
 import { ColumnContainer, ColumnTitle } from "./styles"
 
 interface ColumnProps {
-  text?: string
+  text: string
 }
 
 export const Column = ({ text }: ColumnProps) => {
