@@ -3,7 +3,7 @@ import { useFocus } from "./utils/useFocus"
 import { NewItemFormContainer, NewItemButton, NewItemInput } from "./styles"
 
 interface NewItemFormProps {
-  onAdd(text: string): void
+  onAdd(text: string): void // a callback passed through AddNewItemProps
 }
 
 export const NewItemForm = ({ onAdd }: NewItemFormProps) => {
