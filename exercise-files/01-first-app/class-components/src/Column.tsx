@@ -1,7 +1,11 @@
 import React from "react"
 import { ColumnContainer, ColumnTitle } from "./styles"
 
-export const Column = () => {
+interface ColumnProps {
+  text: string
+}
+
+export const Column = ({ text }: ColumnProps) => {
   return (
     <ColumnContainer>
       <ColumnTitle>Column Title</ColumnTitle>
